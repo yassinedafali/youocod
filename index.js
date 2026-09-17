@@ -1,4 +1,5 @@
-let qrr=["a","b","b","c","c","c"]
-for(let i=0;i<qrr.length;i++){
-    console.log(qrr[i]);
-}
+const prompt = require('prompt-sync')();
+const naime =prompt("what your name");
+let age=Number(prompt("what your age"));
+const sexe=prompt("what your sexe");
+let email=prompt("what your email");
